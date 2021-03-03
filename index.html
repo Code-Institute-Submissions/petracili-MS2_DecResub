@@ -237,6 +237,28 @@
             </ul>
         </footer>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+        <script>
+	
+	function animateElement(event){
+		
+		console.log('el', event);
+		document.getElementById('targetTitle').classList.add('animate__animated', 'animate__backInLeft');
+		//document.getElementById('targetTitle').classList.add("animate__backInLef");
+	}
+	
+	
+	const animateClass = 'animate__backInLeft animate__backInLeft';
+	document.getElementById('animateExample').addEventListener("click", animateElement);
+	
+​
+​
+​
+</script>
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
