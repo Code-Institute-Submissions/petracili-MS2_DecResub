@@ -14,19 +14,20 @@
         });
               var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-      var location = [
-          { let: 40.785091, lng: -73.968285 },
-          { let: 41.084045, lng: -73.874245 }, 
-          { let: 40.754932, lng: -73.984016 }
+      var locations = [
+          { lat: 53.337203, lng: -6.260572 },
+          { lat: 41.084045, lng: -73.874245 }, 
+          { lat: 40.754932, lng: -73.984016 }
       ];
 
        var markers = locations.map(function(location, i){
            return new google.maps.Marker ({
                position: location, 
-               label: labels[i % labels.length]
+               label: labels[i % labels.length],
+               map: map,
            });
        });
 
-       var markerCluster = new MarkerClusterer(map, markers,
-        {imagePath:"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});
-      }
+       //var markerClusterer = new MarkerClusterer(map, markers,
+       // {imagePath:"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});
+    }
