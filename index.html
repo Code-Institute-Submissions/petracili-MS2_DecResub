@@ -276,11 +276,34 @@
     <!--Booking-->
 
     <section class="contact-wrap">
-  <form onsubmit="return sendMail(this);" method = "POST">
-    <input type="text" name="name" class="from-control" id="fullname" placeholder="Name" required/>
-    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-    <textarea rows="5" name="projectsummary" class="form-control" id="porjectsummary" placeholder="Project-Request" required/>
-    <button type="submit" class="btn btn-secondary center-block">Send</button>
+  <form onsubmit="return sendMail(this);" method="POST">
+    <div class="col-sm-6" id="booking">
+      <div class="input-block">
+        <label for="">First Name</label>
+        <input type="text" class="form-control">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="input-block">
+        <label for="">Last Name</label>
+        <input type="text" class="form-control">
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="input-block">
+        <label for="">Email</label>
+        <input type="text" class="form-control">
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="input-block textarea">
+        <label for="">Drop your message here</label>
+        <textarea rows="3" type="text" class="form-control"></textarea>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <button class="square-button">Send</button>
+    </div>
   </form>
 </section>
 
