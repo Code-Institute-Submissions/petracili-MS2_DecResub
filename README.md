@@ -1,1 +1,1 @@
- # EliteFitGym
+<h1 align="center">EliteFitGym</h1>
