@@ -30,3 +30,19 @@ Code Institute Diploma in Full-Stack Software Development Project 2
 - [Technologies Used](#technologies-used)
    - [Adding Email JS SDK](#adding-email-js-sdk)
    - [Adding the Google Maps API](#adding-the-google-maps-api)
+
+- [Credits](#credits)
+
+-----------------
+### UX Design / Presentation
+
+#### User Stories
+
+###### As a visitor to the GYM site I expect:
+
+- To be presented with an appealing page using appropriate quality and format imagery.
+- To be presented a responsive website that looks good on multiple form factors and screen sizes.
+- To be able to find the information I am looking for.
+- To be able to easily navigate on the page.
+- To be able to execute the expected functions on all the included links and buttons.
+- To be able to get in touch with the service provider.
