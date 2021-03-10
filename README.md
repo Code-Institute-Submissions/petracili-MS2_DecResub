@@ -18,3 +18,11 @@ Code Institute Diploma in Full-Stack Software Development Project 2
 ### <u>Contents</u>
 
 - [UX Design](#ux-design--presentation)
+
+- [Wireframing](#wireframing)
+
+  - [Landing](#landing)
+  - [Page layout](#page-layout)
+  - [Contact Form](#contact-form)
+  - [Navigation](#navigation)
+  - [Footer](#footer)
