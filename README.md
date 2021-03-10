@@ -26,3 +26,7 @@ Code Institute Diploma in Full-Stack Software Development Project 2
   - [Contact Form](#contact-form)
   - [Navigation](#navigation)
   - [Footer](#footer)
+
+  - [Technologies Used](#technologies-used)
+  - [Adding Email JS SDK](#adding-email-js-sdk)
+  - [Adding the Google Maps API](#adding-the-google-maps-api)
