@@ -79,4 +79,10 @@ be seen if we compare the first and second project. I have a much clearer concep
 > On the classes page, the focus is placed on the menu with my classes, all classes have a photo and a description of possible exercises. And every possible
  class has the possibility of booking, when you press the button for booking pages it takes you to the contact form.
 
- 
+#### Location ana Booking Page 
+
+<img src="assets/images.readme/locationandbookingpage.PNG" />
+
+>On the location in booking page, the focus is on the section that has a google map in the middle and on the left, there is a form for contacting the gym owner regarding booking classes. While in the right corner 
+there is a footer form in which there are holes for social networks, by clicking on the icon it takes you to the home page of the social network.
+
