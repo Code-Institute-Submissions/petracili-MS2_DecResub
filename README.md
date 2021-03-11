@@ -46,3 +46,11 @@ Code Institute Diploma in Full-Stack Software Development Project 2
 - To be able to easily navigate on the page.
 - To be able to execute the expected functions on all the included links and buttons.
 - To be able to get in touch with the service provider.
+
+###### As the operator of the GYM site I expect:
+  
+ -To provide basic information about EMM and it's services.
+ -The customers to read what was published in the press about EMM. (like customer testimonials)
+ -Visitors to be able to interact with the included map.
+ -Visitors to easily navigate on the site not coming across any broken links or buttons.
+ -The customers to be invoked to contact GYM and avail of their services so they can provide personalized information to the future customer.
