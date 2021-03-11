@@ -61,3 +61,7 @@ Code Institute Diploma in Full-Stack Software Development Project 2
 appealing, and more attractive so that whoever checks my GitHub repository will see my improvement. The Code Institute gave me a better 
 understanding of the knowledge needed for this project I managed to get to everything faster and clearer than on the first project, which can
 be seen if we compare the first and second project. I have a much clearer concept of page design and README file and it was nice to learn how to install add-ons and other functions!"
+
+-----------------
+
+#### **Wireframing**
