@@ -65,3 +65,7 @@ be seen if we compare the first and second project. I have a much clearer concep
 -----------------
 
 #### **Wireframing**
+
+<img src="assets/images.readme/homepage.PNG" />
+
+> I wanted to create a page with photos that could be scrolled to the left or right. At the top left is the logo and at the right is the menu.
