@@ -66,6 +66,17 @@ be seen if we compare the first and second project. I have a much clearer concep
 
 #### **Wireframing**
 
+###### Home Page 
+
 <img src="assets/images.readme/homepage.PNG" />
 
 > I wanted to create a page with photos that could be scrolled to the left or right. At the top left is the logo and at the right is the menu.
+
+#### Classes Page 
+
+<img src="assets/images.readme/classespage.PNG" />
+
+> On the classes page, the focus is placed on the menu with my classes, all classes have a photo and a description of possible exercises. And every possible
+ class has the possibility of booking, when you press the button for booking pages it takes you to the contact form.
+
+ 
