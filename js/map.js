@@ -16,8 +16,8 @@
 
       var locations = [
           { lat: 53.337203, lng: -6.260572 },
-          { lat: 41.084045, lng: -73.874245 }, 
-          { lat: 40.754932, lng: -73.984016 }
+          { lat: 53.333437, lng: -6.262525 }, 
+          { lat: 53.314395, lng: -6.245897 }
       ];
 
        var markers = locations.map(function(location, i){
