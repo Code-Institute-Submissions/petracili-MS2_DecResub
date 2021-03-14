@@ -92,3 +92,6 @@ there is a footer form in which there are holes for social networks, by clicking
 
 > the idea of the page layout on the phone is to reduce the page to the size of the phone screen, and to make the images smaller as well and to arrange the text and batten of the images for booking
 
+-----------------
+
+#### **Colors scheme and typography**
