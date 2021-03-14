@@ -86,3 +86,9 @@ be seen if we compare the first and second project. I have a much clearer concep
 >On the location in booking page, the focus is on the section that has a google map in the middle and on the left, there is a form for contacting the gym owner regarding booking classes. While in the right corner 
 there is a footer form in which there are holes for social networks, by clicking on the icon it takes you to the home page of the social network.
 
+#### Phone wireframing
+
+<img src="assets/images.readme/phone.PNG" />
+
+
+
