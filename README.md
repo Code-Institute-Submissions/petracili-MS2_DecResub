@@ -90,8 +90,15 @@ there is a footer form in which there are holes for social networks, by clicking
 
 <img src="assets/images.readme/phone.PNG" />
 
-> the idea of the page layout on the phone is to reduce the page to the size of the phone screen, and to make the images smaller as well and to arrange the text and batten of the images for booking
+> the idea of the page layout on the phone is to reduce the page to the size of the phone screen, and to make the images smaller as well and to arrange the text and button of the images for booking
 
 -----------------
 
 #### **Colors scheme and typography**
+
+ I have used the Noto Sans from Google Fonts. I have chosen the Noto Sans because it's handwriting calligraphy style for the title. Every other visible text is using Noto Sans.
+
+ The site heavily relies on imagery so I wanted to find a balance between colors. I chose a blue colour that is soothing and encourages creativity, which I think is a great choice for a page that focuses on a healthy lifestyle.
+
+I gave the pages a blue colour for the frame at the top and a blue background for the photos on the home page, and the letters are black to achieve better contrast and be easy to read. The rest of the text is in black to make it easier to read and button blue has also been added to give it a more dynamic look.
+
