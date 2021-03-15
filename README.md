@@ -112,3 +112,10 @@ I gave the pages a blue colour for the frame at the top and a blue background fo
 
 
 #### Frameworks, Libraries & Programs Used
+
+- Google Maps Marker Clusterer
+- Git Version Control 
+- GitHub - to host the repository and the live site
+- [Bootstrap](https://getbootstrap.com/) 
+- [Email JS](https://www.emailjs.com/) - for making the contact form alive
+
