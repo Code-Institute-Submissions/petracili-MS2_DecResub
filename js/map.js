@@ -1,18 +1,22 @@
 // Initialize and add the map
-      function initMap() {
-        // The location of Uluru
-        const uluru = { lat: 53.344307, lng: -6.265476 };
-        // The map, centered at Uluru
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 10,
-          center: uluru,
-        });
-        // The marker, positioned at Uluru
-        const marker = new google.maps.Marker({
-          position: uluru,
-          map: map,
-        });
-              var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+function markerClick(){
+		//console.log("clicked marker ", this.name);
+		document.getElementById('gym_name').innerHTML = this.name;
+		document.getElementById('phone').innerHTML = this.phone;
+		document.getElementById('open').innerHTML = this.open;
+	
+	}
+function initMap() {
+    // The location of Uluru
+    const uluru = { lat: 53.344307, lng: -6.265476 };
+    // The map, centered at Uluru
+    const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 10,
+        center: uluru,
+    });
+
+    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
       var locations = [
           { lat: 53.392699, lng: -6.399460 },
