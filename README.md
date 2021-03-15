@@ -106,9 +106,9 @@ I gave the pages a blue colour for the frame at the top and a blue background fo
 
 #### Languages Used
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 
 #### Frameworks, Libraries & Programs Used
@@ -118,4 +118,6 @@ I gave the pages a blue colour for the frame at the top and a blue background fo
 - GitHub - to host the repository and the live site
 - [Bootstrap](https://getbootstrap.com/) 
 - [Email JS](https://www.emailjs.com/) - for making the contact form alive
+- [FontAwesome](https://fontawesome.com/) - for the icons used
+- [W3Schools Online Web Tutorials](https://www.w3schools.com) - for easier handling of codes
 
