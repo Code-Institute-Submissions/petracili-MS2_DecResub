@@ -18,14 +18,15 @@ function initMap() {
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-      var locations = [
-          { lat: 53.392699, lng: -6.399460 },
-          { lat: 53.333437, lng: -6.262525 }, 
-          { lat: 53.314395, lng: -6.245897 },
-          { lat: 53.307092, lng: -6.350751 },
-          { lat: 53.389752, lng: -6.279799 },
-          { lat: 53.394159, lng: -6.160858 },
-          { lat: 53.247920, lng: -6.122881 }         
+    var gymList = [
+            {'name': 'Uluru', 'location': { lat: 53.344307, lng: -6.265476 }, 'phone':'26262727281', 'open':'24 H1'},
+			{'name': 'Gym 1', 'location': { lat: 53.392699, lng: -6.399460 }, 'phone':'26262727282', 'open':'24 H2'},
+			{'name': 'Gym 2', 'location': { lat: 53.333437, lng: -6.262525 }, 'phone':'26262727283', 'open':'24 H3'},
+			{'name': 'Gym 3', 'location': { lat: 53.314395, lng: -6.245897 }, 'phone':'26262727284', 'open':'24 H4'},
+			{'name': 'Gym 4', 'location': { lat: 53.307092, lng: -6.350751 }, 'phone':'26262727285', 'open':'24 H5'},
+			{'name': 'Gym 5', 'location': { lat: 53.389752, lng: -6.279799 }, 'phone':'26262727286', 'open':'24 H6'},
+			{'name': 'Gym 6', 'location': { lat: 53.394159, lng: -6.160858 }, 'phone':'26262727287', 'open':'24 H7'},
+			{'name': 'Gym 7', 'location': { lat: 53.247920, lng: -6.122881 }, 'phone':'26262727288', 'open':'24 H8'},      
       ];
 
        var markers = locations.map(function(location, i){
