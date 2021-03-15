@@ -120,4 +120,9 @@ I gave the pages a blue colour for the frame at the top and a blue background fo
 - [Email JS](https://www.emailjs.com/) - for making the contact form alive
 - [FontAwesome](https://fontawesome.com/) - for the icons used
 - [W3Schools Online Web Tutorials](https://www.w3schools.com) - for easier handling of codes
+- [Animate.css](https://animate.style/) - for animating element on the landing page 
+- [Google Fonts:](https://fonts.google.com/) - for font on webpage
+- [HTML Color Codes:](https://htmlcolorcodes.com/) - for color codes and names
+- Code Institute - for reminder of how the element is used
+- [Grammarly](https://www.grammarly.com) - to correct grammar
 
