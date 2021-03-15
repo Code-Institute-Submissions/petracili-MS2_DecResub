@@ -29,12 +29,19 @@ function initMap() {
 			{'name': 'Gym 7', 'location': { lat: 53.247920, lng: -6.122881 }, 'phone':'26262727288', 'open':'24 H8'},      
       ];
 
-       var markers = locations.map(function(location, i){
-           return new google.maps.Marker ({
-               position: location, 
-               label: labels[i % labels.length],
+       var markers = gymList.map(function(gym, i){
+           newMarker =  new google.maps.Marker ({
+               position: gym.location, 
+               label: "",
                map: map,
+               name: gym.name,
+               phone: gym.phone,
+               open: gym.open
            });
+
+        newMarker.addListener('click', markerClick);
+		   
+        return newMarker;
        });
 
        //var markerClusterer = new MarkerClusterer(map, markers,
