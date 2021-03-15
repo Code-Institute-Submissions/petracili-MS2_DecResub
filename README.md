@@ -127,6 +127,7 @@ I gave the pages a blue colour for the frame at the top and a blue background fo
 - [Grammarly](https://www.grammarly.com) - to correct grammar
 
 #### Adding Email JS 
+
 Adding this functionality to a website was covered in the Interactive Frontend Development module of the course. Those few videos were a great help. Firstly you have to be registered to this service then you will be able to link it with an existing email address. The official EmailJS documentation is also crucial to understand what has to be done in order to get everything in working order. You can find the documentation [here](https://www.emailjs.com/docs/introduction/how-does-emailjs-work/).
 
 #### Adding the Google Maps API
@@ -140,3 +141,9 @@ It's best practice to restrict the use of your API key in order to avoid unautho
 You can find information on how to place markers and use the marker clusterer on a map in the Google Maps JavaScript API Documentation [here](https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-javascript).
 
 -----------------
+
+### **Version Control**
+
+I used Git for version control and uploading the project to GitHub.
+My GitHub repository for this project is accessible [here](https://8000-bronze-nightingale-lw1i2kuu.ws-eu03.gitpod.io/).
+
