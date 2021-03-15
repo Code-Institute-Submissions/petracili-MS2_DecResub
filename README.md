@@ -102,3 +102,13 @@ there is a footer form in which there are holes for social networks, by clicking
 
 I gave the pages a blue colour for the frame at the top and a blue background for the photos on the home page, and the letters are black to achieve better contrast and be easy to read. The rest of the text is in black to make it easier to read and button blue has also been added to give it a more dynamic look.
 
+-----------------
+
+#### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+
+#### Frameworks, Libraries & Programs Used
