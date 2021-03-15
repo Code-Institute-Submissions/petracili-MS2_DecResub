@@ -6,7 +6,7 @@ Code Institute Diploma in Full-Stack Software Development Project 2
 
 <img src="assets/images.readme/Capture.PNG" />
 
-### View the live project: https://8000-bronze-nightingale-lw1i2kuu.ws-eu03.gitpod.io/
+### View the live project: https://github.com/petracili/MS2.git
 
 ### <u>Scope of the project</u>
 
@@ -145,5 +145,5 @@ You can find information on how to place markers and use the marker clusterer on
 ### **Version Control**
 
 I used Git for version control and uploading the project to GitHub.
-My GitHub repository for this project is accessible [here](https://8000-bronze-nightingale-lw1i2kuu.ws-eu03.gitpod.io/).
+My GitHub repository for this project is accessible [here](https://github.com/petracili/MS2.git).
 
