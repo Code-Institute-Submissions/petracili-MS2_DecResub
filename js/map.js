@@ -11,7 +11,7 @@ function markerClick(){
 	}
 function initMap() {
     // The location of Uluru
-    const uluru = { lat: 53.344307, lng: -6.265476 };
+    const uluru = { lat: 53.376181, lng: -6.320789 };
     // The map, centered at Uluru
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 10,
@@ -21,7 +21,7 @@ function initMap() {
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var gymList = [
-            {'name': 'Uluru', 'location': { lat: 53.344307, lng: -6.265476 }, 'phone':'01/2426-589', 'open':'0-24 Hours'},
+            {'name': 'Uluru', 'location': { lat: 53.376181, lng: -6.320789 }, 'phone':'01/2426-589', 'open':'0-24 Hours'},
 			{'name': 'Gym 1', 'location': { lat: 53.392699, lng: -6.399460 }, 'phone':'01/2426-576', 'open':'0-24 Hours'},
 			{'name': 'Gym 2', 'location': { lat: 53.333437, lng: -6.262525 }, 'phone':'01/2426-325', 'open':'0-24 Hours'},
 			{'name': 'Gym 3', 'location': { lat: 53.314395, lng: -6.245897 }, 'phone':'01/2426-126', 'open':'0-24 Hours'},
