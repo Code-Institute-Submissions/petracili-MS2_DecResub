@@ -5,6 +5,7 @@ function markerClick(){
 		document.getElementById('gym_name').innerHTML = this.name;
 		document.getElementById('phone').innerHTML = this.phone;
         document.getElementById('open').innerHTML = this.open;
+
         var x = document.getElementById("myImg").innerHTM ;
 	
 	}
