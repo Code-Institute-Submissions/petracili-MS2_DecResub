@@ -153,3 +153,15 @@ HTML code validated on - https://validator.w3.org/
 CSS code validated on - https://jigsaw.w3.org/css-validator/
 
 - Upon sending a message through the contact form, the site visitor will receive an automated email response to the email address they have provided previously in the form. I Tested this functionality on my email accounts. The right is the email provided while filling the form. This has got the automated message after clicking send.
+
+<img src="assets/images.readme/testing.PNG" />
+
+A member of Code Institute Anna Greaves has mentioned this handy tool in her ["How to README.md"](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be&ab_channel=CodeInstitute) online webinar.
+
+### Deployment
+
+1. On GitHub, navigate to your site's repository.
+2. Under your repository name, click **Settings**.
+3. Under "GitHub Pages", use the **None** or **Branch** drop-down menu and select a publishing source.
+4. Optionally, use the drop-down menu to select a folder for your publishing source.
+5. Click **Save**.
