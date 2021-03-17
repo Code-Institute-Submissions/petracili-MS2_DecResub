@@ -4,11 +4,11 @@ a.navbar-brand{
     font-size: xxx-large;
     margin-bottom: 25px;
     background-color: #4169E1 !important;
-    }
+}
 
 nav.navbar {
 	background-color: #4169E1 !important;			
-    }
+}
             
 .gallery img {
 	height: 550px;
@@ -17,22 +17,22 @@ nav.navbar {
 
 .bodycolor {            
     background-color:#4169E1 !important;            
-    }
+}
             
 #bcolor {
     background-color: #4169E1 !important ;
     color: black;                    
-    }
+}
 
 #map {
     height: 100%;
-    }
+}
 
 #whosay {
     color: white;
-    }
+}
 
-    .social-networks{
+.social-networks{
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ nav.navbar {
   font-size: 160%;
   margin: 1%;
   padding: 5%;
-  color:#777777;
+  color:black;
 }
 
 
