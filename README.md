@@ -147,3 +147,9 @@ You can find information on how to place markers and use the marker clusterer on
 I used Git for version control and uploading the project to GitHub.
 My GitHub repository for this project is accessible [here](https://github.com/petracili/MS2.git).
 
+### Testing write-up
+
+HTML code validated on - https://validator.w3.org/
+CSS code validated on - https://jigsaw.w3.org/css-validator/
+
+- Upon sending a message through the contact form, the site visitor will receive an automated email response to the email address they have provided previously in the form. I Tested this functionality on my email accounts. The right is the email provided while filling the form. This has got the automated message after clicking send.
