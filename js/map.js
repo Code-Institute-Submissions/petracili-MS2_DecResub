@@ -5,10 +5,9 @@ function markerClick(){
 		document.getElementById('gym_name').innerHTML = this.name;
 		document.getElementById('phone').innerHTML = this.phone;
         document.getElementById('open').innerHTML = this.open;
-
-        var x = document.getElementById("myImg").innerHTM ;
-	
-	}
+        document.getElementById("myImg").innerHTM = this.img;
+    }
+    
 function initMap() {
     // The location of Uluru
     const uluru = { lat: 53.376181, lng: -6.320789 };
@@ -21,7 +20,7 @@ function initMap() {
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var gymList = [
-            {'name': 'Uluru', 'location': { lat: 53.376181, lng: -6.320789 }, 'phone':'01/2426-589', 'open':'0-24 Hours'},
+            {'name': 'Uluru', 'location': { lat: 53.376181, lng: -6.320789 }, 'phone':'01/2426-589', 'open':'0-24 Hours' , 'img': "assets/images.readme/gim.jpg"},
 			{'name': 'Gym 1', 'location': { lat: 53.392699, lng: -6.399460 }, 'phone':'01/2426-576', 'open':'0-24 Hours'},
 			{'name': 'Gym 2', 'location': { lat: 53.333437, lng: -6.262525 }, 'phone':'01/2426-325', 'open':'0-24 Hours'},
 			{'name': 'Gym 3', 'location': { lat: 53.314395, lng: -6.245897 }, 'phone':'01/2426-126', 'open':'0-24 Hours'},
