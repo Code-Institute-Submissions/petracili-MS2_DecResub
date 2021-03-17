@@ -42,10 +42,15 @@ nav.navbar {
 
 .social-networks i {
   font-size: 160%;
-  margin: 1%;
-  padding: 5%;
+  margin: 25px 50px 75px 100px;
+  padding: 3%;
   color:black;
 }
 
+.footer-copyright {
+    color: #fff;
+    background-color: #000;
+    height: 45px;
+}
 
  
