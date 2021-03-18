@@ -66,5 +66,13 @@ nav.navbar {
     height: 45px;
 }
 
+@media screen and ( max-width: 800px ) {
+     .pic-div { 
+          display: inline; 
+     }
+     .pic-div { 
+          display: none; 
+     }
+}
 
  
