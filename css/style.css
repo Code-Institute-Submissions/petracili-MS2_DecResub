@@ -65,3 +65,24 @@ nav.navbar {
     background-color: #000;
     height: 45px;
 }
+
+
+.services_img{
+
+    width: 100% !important;
+    height: 200px;
+}
+
+.services_text{
+
+    height: 150px;
+    overflow-y: scroll;
+
+}
+
+.map_img{
+
+     width: 100px !important;
+    height: 200px;
+}
+
