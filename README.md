@@ -184,3 +184,11 @@ If you'd like to see and work on my code locally feel free to clone the reposito
 7. Press **Enter** to create your local clone.
 
 GitHub documentation on cloning repository includes other methods to using the console. You can read more [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+### Credits
+
+***Antonio Rodrigez*** - My mentor at Code Institute - for general feedback and guidance, special guidance on Google Maps
+
+***Matt Rudge*** - Lecturer/Developer at Code Institute - for the [template](https://github.com/Code-Institute-Org/gitpod-full-template) used with GitPod IDE for developing this project, and the lecture on Email JS
+
+***Anna Greaves*** - Developer at Code Institute - for the ["How to README.md"](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be&ab_channel=CodeInstitute) webinar
