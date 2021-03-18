@@ -192,3 +192,11 @@ GitHub documentation on cloning repository includes other methods to using the c
 ***Matt Rudge*** - Lecturer/Developer at Code Institute - for the [template](https://github.com/Code-Institute-Org/gitpod-full-template) used with GitPod IDE for developing this project, and the lecture on Email JS
 
 ***Anna Greaves*** - Developer at Code Institute - for the ["How to README.md"](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be&ab_channel=CodeInstitute) webinar
+
+***Bootstrap*** - for providing [documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/) on the framework
+
+***W3schools*** - for various code segments, examples and [explanations](https://www.w3schools.com/) used throughout the project
+
+***Font Awesome*** - CDN for [icons](https://fontawesome.com/) used in the project
+
+***Google Fonts*** - CDN for [fonts](https://fonts.google.com/) used in the project
