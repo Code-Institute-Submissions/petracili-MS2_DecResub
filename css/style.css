@@ -77,6 +77,9 @@ nav.navbar {
     height: 45px;
 }
 
+#submit{
+    margin-top: 10px;
+}
 
 .services_img{
 
@@ -93,7 +96,7 @@ nav.navbar {
 
 .map_img{
 
-    border-radius: 50px; 
+    border-radius: 25px; 
     width: 300px !important;
     height: 200px;
 }
