@@ -38,12 +38,6 @@ nav.navbar {
     color: white
 }
 
-/*#whosay{
-    color: black;
-    margin-left: 25px;
-    margin-right: 25px;
-}*/
-
 .bodycolor {            
     background-color:#4169E1 !important;            
 }
@@ -98,7 +92,8 @@ nav.navbar {
 
 .map_img{
 
-     width: 300px !important;
+    border-radius: 50px; 
+    width: 300px !important;
     height: 200px;
 }
 
