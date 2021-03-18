@@ -102,3 +102,9 @@ nav.navbar {
     height: 200px;
 }
 
+.info {
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
