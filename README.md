@@ -180,5 +180,7 @@ If you'd like to see and work on my code locally feel free to clone the reposito
    ```shell
    $ git clone https://github.com/petracili/MS2.git
    ```
-   
+
 7. Press **Enter** to create your local clone.
+
+GitHub documentation on cloning repository includes other methods to using the console. You can read more [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
