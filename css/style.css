@@ -21,7 +21,11 @@ nav.navbar {
 .gallery img {
 	height: 550px;
 	width:100%;				
-    }
+}
+
+#text {
+    margin-left: 10px;
+}
 
 .bodycolor {            
     background-color:#4169E1 !important;            
