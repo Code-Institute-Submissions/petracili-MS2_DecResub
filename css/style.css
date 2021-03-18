@@ -102,6 +102,11 @@ nav.navbar {
     height: 200px;
 }
 
+.booking {
+    margin-left: 10%;
+
+}
+
 .info {
     font-size: large;
     margin-top: 10px;
