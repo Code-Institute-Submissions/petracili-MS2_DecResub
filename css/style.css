@@ -9,13 +9,22 @@
 
 
 a.navbar-brand{
-    font-size: xxx-large;
+    text-shadow: 2px 2px 5px white;
+    font-size: 100px;
     margin-bottom: 25px;
     background-color: #4169E1 !important;
 }
 
 nav.navbar {
 	background-color: #4169E1 !important;			
+}
+
+.nav-link{
+    font-size: x-large;
+    text-shadow: 2px 2px 5px white;
+    margin-left: 15px;
+    margin-top: 15px;
+
 }
             
 .gallery img {
@@ -26,7 +35,14 @@ nav.navbar {
 #text {
     margin-left: 25px;
     margin-right: 25px;
+    color: white
 }
+
+/*#whosay{
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+}*/
 
 .bodycolor {            
     background-color:#4169E1 !important;            
@@ -34,7 +50,7 @@ nav.navbar {
             
 #bcolor {
     background-color: #4169E1 !important ;
-    color: black;                    
+    color: white;                    
 }
 
 #map {
@@ -57,12 +73,12 @@ nav.navbar {
   font-size: 160%;
   margin: 25px 50px 75px 100px;
   padding: 3%;
-  color:black;
+  color:white;
 }
 
 .footer-copyright {
-    color: #fff;
-    background-color: #000;
+    color: black;
+    background-color: white;
     height: 45px;
 }
 
