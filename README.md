@@ -166,3 +166,19 @@ A member of Code Institute Anna Greaves has mentioned this handy tool in her ["H
  3. Under "GitHub Pages", use the **None** or **Branch** drop-down menu and select a publishing source.
  4. Optionally, use the drop-down menu to select a folder for your publishing source.
  5. Click **Save**.
+
+### Cloning this repository
+
+If you'd like to see and work on my code locally feel free to clone the repository. When you clone a repository, you copy the repository from GitHub to your local machine. 
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click **Code**.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click **Use SSH**, then click . To clone a repository using GitHub CLI, click **Use GitHub CLI**, then click .
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type `git clone`, and then paste the URL you copied earlier.
+
+   ```shell
+   $ git clone https://github.com/petracili/MS2.git
+   ```
+   
+7. Press **Enter** to create your local clone.
