@@ -5,7 +5,7 @@ function markerClick(){
 		document.getElementById('gym_name').innerHTML = this.name;
 		document.getElementById('phone').innerHTML = this.phone;
         document.getElementById('open').innerHTML = this.open;
-        document.getElementById("myImg").innerHTM = this.img;
+        document.getElementById("myImg").innerHTML = '<img class="map_img" src="'+ this.image + '" />';
     }
     
 function initMap() {
@@ -20,14 +20,14 @@ function initMap() {
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var gymList = [
-            {'name': 'Uluru', 'location': { lat: 53.376181, lng: -6.320789 }, 'phone':'01/2426-589', 'open':'0-24 Hours' , 'img': "assets/images.readme/gim.jpg"},
-			{'name': 'Gym 1', 'location': { lat: 53.392699, lng: -6.399460 }, 'phone':'01/2426-576', 'open':'0-24 Hours'},
-			{'name': 'Gym 2', 'location': { lat: 53.333437, lng: -6.262525 }, 'phone':'01/2426-325', 'open':'0-24 Hours'},
-			{'name': 'Gym 3', 'location': { lat: 53.314395, lng: -6.245897 }, 'phone':'01/2426-126', 'open':'0-24 Hours'},
-			{'name': 'Gym 4', 'location': { lat: 53.307092, lng: -6.350751 }, 'phone':'01/2426-753', 'open':'0-24 Hours'},
-			{'name': 'Gym 5', 'location': { lat: 53.389752, lng: -6.279799 }, 'phone':'01/2426-159', 'open':'0-24 Hours'},
-			{'name': 'Gym 6', 'location': { lat: 53.394159, lng: -6.160858 }, 'phone':'01/2426-852', 'open':'0-24 Hours'},
-			{'name': 'Gym 7', 'location': { lat: 53.247920, lng: -6.122881 }, 'phone':'01/2426-452', 'open':'0-24 Hours'},      
+            {'name': 'Uluru', 'location': { lat: 53.376181, lng: -6.320789 }, 'phone':'01/2426-589', 'open':'0-24 Hours' , 'img': "/assets/images.readme/STEP.PNG"},
+			{'name': 'Gym 1', 'location': { lat: 53.392699, lng: -6.399460 }, 'phone':'01/2426-576', 'open':'0-24 Hours', 'img': "/assets/images.readme/ABS.PNG"},
+			{'name': 'Gym 2', 'location': { lat: 53.333437, lng: -6.262525 }, 'phone':'01/2426-325', 'open':'0-24 Hours', 'img': "/assets/images.readme/CARDIO.PNG"},
+			{'name': 'Gym 3', 'location': { lat: 53.314395, lng: -6.245897 }, 'phone':'01/2426-126', 'open':'0-24 Hours', 'img': "https://8000-olive-tortoise-4r0bn3tc.ws-us03.gitpod.io/assets/images.readme/STEP.PNG"},
+			{'name': 'Gym 4', 'location': { lat: 53.307092, lng: -6.350751 }, 'phone':'01/2426-753', 'open':'0-24 Hours', 'img': "https://8000-olive-tortoise-4r0bn3tc.ws-us03.gitpod.io/assets/images.readme/STEP.PNG"},
+			{'name': 'Gym 5', 'location': { lat: 53.389752, lng: -6.279799 }, 'phone':'01/2426-159', 'open':'0-24 Hours', 'img': "https://8000-olive-tortoise-4r0bn3tc.ws-us03.gitpod.io/assets/images.readme/STEP.PNG"},
+			{'name': 'Gym 6', 'location': { lat: 53.394159, lng: -6.160858 }, 'phone':'01/2426-852', 'open':'0-24 Hours', 'img': "https://8000-olive-tortoise-4r0bn3tc.ws-us03.gitpod.io/assets/images.readme/STEP.PNG"},
+			{'name': 'Gym 7', 'location': { lat: 53.247920, lng: -6.122881 }, 'phone':'01/2426-452', 'open':'0-24 Hours', 'img': "https://8000-olive-tortoise-4r0bn3tc.ws-us03.gitpod.io/assets/images.readme/STEP.PNG"},    
       ];
 
        var markers = gymList.map(function(gym, i){
@@ -37,7 +37,8 @@ function initMap() {
                map: map,
                name: gym.name,
                phone: gym.phone,
-               open: gym.open
+               open: gym.open,
+               image: gym.img
            });
 
         newMarker.addListener('click', markerClick);
