@@ -20,6 +20,7 @@
     <script type="text/javascript">
     (function(){
         emailjs.init("user_xKMlyK4S0o5h08XSJvtF7");
+
     })();
     </script>
   </head>
@@ -254,7 +255,7 @@
 	   <div class="">
 	   
 	<section class="contact-wrap">
-	  <form onsubmit="event.preventDefault(); return sendMail(this);" method="POST">
+	  <form onsubmit="return sendMail(this);" method="POST">
 		<div class="col-sm-6" id="booking">
 		  <div class="input-block">
 			<label for="">First Name</label>
