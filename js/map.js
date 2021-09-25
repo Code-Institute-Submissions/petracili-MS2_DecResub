@@ -21,7 +21,7 @@ function initMap() {
 
     var gymList = [
             {'name': 'EliteFitGym', 'location': { lat: 53.376181, lng: -6.320789 }, 'phone':'01/2426-589', 'open':'0-24 Hours', 'img': "/assets/images.readme/GYM.PNG"},
-			{'name': 'EliteFitGym', 'location': { lat: 53.392699, lng: -6.399460 }, 'phone':'01/2426-576', 'open':'0-24 Hours', 'img': "/assets/images.readme/GYM.PNG"},
+			{'name': 'EliteFitGym', 'location': { lat: 53.392699, lng: -6.399460 }, 'phone':'01/2426-576', 'open':'0-24 Hours', 'img': "/assets/images.readme/phone.PNG"},
 			{'name': 'EliteFitGym', 'location': { lat: 53.333437, lng: -6.262525 }, 'phone':'01/2426-325', 'open':'0-24 Hours', 'img': "/assets/images.readme/GYM.PNG"},
 			{'name': 'EliteFitGym', 'location': { lat: 53.314395, lng: -6.245897 }, 'phone':'01/2426-126', 'open':'0-24 Hours', 'img': "/assets/images.readme/GYM.PNG"},
 			{'name': 'EliteFitGym', 'location': { lat: 53.307092, lng: -6.350751 }, 'phone':'01/2426-753', 'open':'0-24 Hours', 'img': "/assets/images.readme/GYM.PNG"},

@@ -107,7 +107,7 @@
               <p class="card-text services_text">Does this class really need a description? We will strengthen and tone those all important areas! We will use a variety of equipment including barbells, dumbbells and kettlebells.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button id="bcolor"type="button" class="btn btn-sm btn-outline-secondary" href="#map">BOOK NOW</button>
+                  <a id="bcolor" type="button" class="btn btn-sm btn-outline-secondary" href="#booking">BOOK NOW</a>
                 </div>
               </div>
             </div>
@@ -258,29 +258,29 @@
 	   <div class="">
 	   
 	<section class="contact-wrap">
-	  <form onsubmit="return sendMail(this);" method = "POST">
+	  <form onsubmit="event.preventDefault(); sendMail(this);" method = "POST">
 		<div class="col-sm-6" id="booking">
 		  <div class="input-block">
 			<label for="">First Name</label>
-			<input type="emailaddress " class="form-control" name="firstname">
+			<input type="text" class="form-control" name="firstname" required >
 		  </div>
 		</div>
 		<div class="col-sm-6">
 		  <div class="input-block">
 			<label for="">Last Name</label>
-			<input type="emailaddress " class="form-control" name="lastname">
+			<input type="text" class="form-control" name="lastname" required >
 		  </div>
 		</div>
 		<div class="col-sm-12">
 		  <div class="input-block">
 			<label for="">Email</label>
-			<input type="emailaddress  " class="form-control" name="email">
+			<input type="email" class="form-control" name="email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" >
 		  </div>
 		</div>
 		<div class="col-sm-12">
 		  <div class="input-block textarea">
 			<label for="">Drop your message here</label>
-			<textarea rows="3" type="emailaddress " class="form-control" name="message"></textarea>
+			<textarea rows="3" type="text " class="form-control" name="message" required></textarea>
 		  </div>
 		</div>
 		<div class="col-sm-12">
@@ -291,16 +291,16 @@
 </div>
 
 	   <div class="row">
-		   <div class="col-8">
+		   <div class="col-12 col-md-8">
 				<div id="map" style="width:100%; height: 400px"></div>
 		   </div>
-		   <div class="col-4">
+		   <div class="col-12 col-md-4">
 			   <div class="card mb-4 shadow-sm">
 				  <div class="card-header">
 					<h4 class="my-0 fw-normal" id="gym_name">Choose our gym</h4>
 				  </div>
 				  <div class="card-body">
-					<h1 class="card-title pricing-card-title" <small class="text-muted"></small></h1>
+					<h1 class="card-title pricing-card-title" class="text-muted"></small></h1>
 					<ul class="list-unstyled mt-3 mb-4">
                       <li id="myImg"></li>
 					  <li class="info" id="phone"></li>
