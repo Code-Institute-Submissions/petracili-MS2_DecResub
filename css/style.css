@@ -112,3 +112,14 @@ nav.navbar {
     margin-left: 100px;
     margin-bottom: 5px;
 }
+
+@media screen and (min-width: 400px) {
+    
+    
+}
+
+@media only screen and (max-width: 420px) {
+    .navbar-light .navbar-brand{
+        font-size: xxx-large;
+    }
+  }
