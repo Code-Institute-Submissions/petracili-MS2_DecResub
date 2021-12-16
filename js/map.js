@@ -18,8 +18,6 @@ function initMap() {
         center: uluru,
     });
 
-    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
     var gymList = [
             {'name': 'EFG. Ashtown', 'location': { lat: 53.376181, lng: -6.320789 }, 'phone':'01/2426-589', 'open':'0-24 Hours', 'img': "/assets/images.readme/gym2.PNG"},
 			{'name': 'EFG. Coolmine', 'location': { lat: 53.392699, lng: -6.399460 }, 'phone':'01/2426-576', 'open':'0-24 Hours', 'img': "/assets/images.readme/gym3.PNG"},
@@ -30,7 +28,7 @@ function initMap() {
 			{'name': 'EFG. Killiney', 'location': { lat: 53.247920, lng: -6.122881 }, 'phone':'01/2426-452', 'open':'0-24 Hours', 'img': "/assets/images.readme/gym8.PNG"},    
       ];
 
-    var markers = gymList.map(function(gym, i){
+    gymList.map(function(gym){
         newMarker =  new google.maps.Marker ({
             position: gym.location, 
             label: "",
@@ -64,7 +62,7 @@ window.addEventListener('load', function () {
         image = this.getElementsByTagName('option')[this.selectedIndex].getAttribute('data-picture');
         // image = this.getAttribute('data-title');
         document.getElementById("myImg").innerHTML = '<img class="map_img" src="'+ image + '" />';
-    })
+    });
 
 
 });
