@@ -251,7 +251,7 @@
 	   </div>
    </div> 
 
-  <!----NEW CONTENT--->
+  <!---NEW CONTENT--->
 
   <div class="container">
 	  <div class="row" id="booking">
@@ -267,7 +267,7 @@
             <h6 id="no_map_message" class="card-title pricing-card-title text-muted"><small>Select a gym location from the map</small></h6>
             <form onsubmit="event.preventDefault(); sendReservation(this);" method = "POST">
               <select class="form-select" disabled id="gym_location" name="gym_location" required>
-                <option selected>Select a location</option>
+                <option value="0" selected>Select a location</option>
                 <option value="1">One</option>
               </select>
               <select class="form-select" id="selected_class" name="gym_class" required>
