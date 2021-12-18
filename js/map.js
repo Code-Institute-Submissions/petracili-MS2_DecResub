@@ -29,7 +29,7 @@ function initMap() {
       ];
 
     gymList.map(function(gym){
-        newMarker =  new google.maps.Marker ({
+         const newMarker =  new google.maps.Marker ({
             position: gym.location, 
             label: "",
             map: map,
@@ -50,8 +50,8 @@ window.addEventListener('load', function () {
     const classButtons = document.querySelectorAll('a.class_selector');
     classButtons.forEach(function(button){
         button.addEventListener('click', function(){
-            document.getElementById('selected_class').getElementsByTagName('option')[0].text = this.getAttribute('data-title');
-            document.getElementById('selected_class').value = 0;
+            document.getElementById('selected_class').getElementsByTagName('option')[10].text = this.getAttribute('data-title');
+            document.getElementById('selected_class').value = "10";
             document.getElementById("myImg").innerHTML = '<img class="map_img" src="'+ this.getAttribute('data-picture') + '" />';
         });
     });
@@ -59,8 +59,7 @@ window.addEventListener('load', function () {
 
     document.getElementById('selected_class').addEventListener('change', function() {
         
-        image = this.getElementsByTagName('option')[this.selectedIndex].getAttribute('data-picture');
-        // image = this.getAttribute('data-title');
+       const image = this.getElementsByTagName('option')[this.selectedIndex].getAttribute('data-picture');
         document.getElementById("myImg").innerHTML = '<img class="map_img" src="'+ image + '" />';
     });
 
