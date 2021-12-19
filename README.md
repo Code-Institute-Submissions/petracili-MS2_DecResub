@@ -12,7 +12,7 @@ Code Institute Diploma in Full-Stack Software Development Project 2
 
  Nowadays, when people don't care so much about health and movement because of their way of life, and when because of today's technologies, they sit in offices
  in a range of physical guilt. The idea of the EliteFitGym concept was born, which will be available to everyone
- with various individual and group training. We offer you the opportunity to train 0-24 7 days a week. Our team of coaches is at your disposal to help.
+ with various individual and group training. We offer you the opportunity to train 0-24 7 days a week. In this Project, you are able to book a training particular gym and time when you want to come. 
 
 -----------------
 ### <u>Contents</u>
@@ -30,6 +30,7 @@ Code Institute Diploma in Full-Stack Software Development Project 2
 - [Technologies Used](#technologies-used)
    - [Adding Email JS SDK](#adding-email-js-sdk)
    - [Adding the Google Maps API](#adding-the-google-maps-api)
+   - [Testing](#testing)
 
 - [Credits](#credits)
 
@@ -147,15 +148,76 @@ You can find information on how to place markers and use the marker clusterer on
 I used Git for version control and uploading the project to GitHub.
 My GitHub repository for this project is accessible [here](https://petracili.github.io/MS2/).
 
-### Testing write-up
+### Testing
 
-HTML code validated on - https://validator.w3.org/
+## HTML Test
+
+
+I checked all of the HTML pages using https://validator.w3.org/. 
+
+Unfortunately, I got a few errors for type and id on images. 
+
+<img src="testing/testhtml.PNG" />
+
+I deleted type of each pictures and added different id for every images. 
+
+<img src="testing/htmlms2.PNG" />
+
+When I fixed thing error all pages passed and all checks.
+
+## CSS Test
 
 CSS code validated on - https://jigsaw.w3.org/css-validator/
 
-- Upon sending a message through the contact form, the site visitor will receive an automated email response to the email address they have provided previously in the form. I Tested this functionality on my email accounts. The right is the email provided while filling the form. This has got the automated message after clicking send.
+No errors on css all code is checks and all passed.
 
-<img src="assets/images.readme/testing.PNG" />
+<img src="testing/csstest.PNG" />
+
+## JavaScript Test
+
+JavaScript code validated on - https://jshint.com/
+
+First I was validate the map.js folder,  get errors for img, newMarkers and google.
+
+<img src="testing/jserorr.PNG>
+
+To fix errors on img and newMarkers I added const element on img and newMarkers functions. 
+
+<img src="testing/imgtest.PNG>
+
+<img src="testing/markertest.PNG>
+
+After I fixed those two errors I have only a google error in the map.js folder but the google error is determined in the index.html file.
+
+<img src="testing/jserorr.PNG>
+
+<img src="testing/googletest.PNG>
+
+The next step was to validate sendEmail.js and I do it on the same validator - https://jshint.com/
+
+As well like with google I have errors with email but email is determined in the index.html file. 
+
+<img src="testing/eror.PNG>
+
+<img src="testing/mailtest.PNG>
+
+I talked to my mentor at the last meeting about bugs with google and email, and he explained to me that validators do not recognize this feature because they are specified in the index.html file.
+
+## Mail Test 
+
+To send ordinary emails with an inquiry and to fill out forms and book training and in a certain field and at a certain time you are required to fill out forms such as location, training and time in booking training hours. Also, when sending a normal email, you are obliged to fill in your name, surname, email and message, otherwise, the message will not be sent, when you fill everything in, a window will pop up stating that the message was sent successfully and to check your email.
+
+<img src="testing/req.PNG>
+
+<img src="testing/email2.PNG>
+
+<img src="testing/emrq.PNG>
+
+<img src="testing/email.PNG>
+
+Upon sending a message through the contact form, the site visitor will receive an automated email response to the email address they have provided previously in the form. I Tested this functionality on my email accounts. The right is the email provided while filling the form. This has got the automated message after clicking send.
+
+<img src="testing/testms2.PNG>
 
 A member of Code Institute Anna Greaves has mentioned this handy tool in her ["How to README.md"](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be&ab_channel=CodeInstitute) online webinar.
 
