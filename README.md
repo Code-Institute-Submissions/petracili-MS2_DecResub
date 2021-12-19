@@ -183,23 +183,23 @@ First I was validate the map.js folder,  get errors for img, newMarkers and goog
 
 To fix errors on img and newMarkers I added const element on img and newMarkers functions. 
 
-<img src="testing/imgtest.PNG>
+<img src="testing/imgtest.PNG" />
 
-<img src="testing/markertest.PNG>
+<img src="testing/markertest.PNG" />
 
 After I fixed those two errors I have only a google error in the map.js folder but the google error is determined in the index.html file.
 
-<img src="testing/jserorr.PNG>
+<img src="testing/jserorr.PNG" />
 
-<img src="testing/googletest.PNG>
+<img src="testing/googletest.PNG" />
 
 The next step was to validate sendEmail.js and I do it on the same validator - https://jshint.com/
 
 As well like with google I have errors with email but email is determined in the index.html file. 
 
-<img src="testing/eror.PNG>
+<img src="testing/eror.PNG" />
 
-<img src="testing/mailtest.PNG>
+<img src="testing/mailtest.PNG" />
 
 I talked to my mentor at the last meeting about bugs with google and email, and he explained to me that validators do not recognize this feature because they are specified in the index.html file.
 
@@ -207,17 +207,17 @@ I talked to my mentor at the last meeting about bugs with google and email, and 
 
 To send ordinary emails with an inquiry and to fill out forms and book training and in a certain field and at a certain time you are required to fill out forms such as location, training and time in booking training hours. Also, when sending a normal email, you are obliged to fill in your name, surname, email and message, otherwise, the message will not be sent, when you fill everything in, a window will pop up stating that the message was sent successfully and to check your email.
 
-<img src="testing/req.PNG>
+<img src="testing/req.PNG" />
 
-<img src="testing/email2.PNG>
+<img src="testing/email2.PNG" />
 
-<img src="testing/emrq.PNG>
+<img src="testing/emrq.PNG" />
 
-<img src="testing/email.PNG>
+<img src="testing/email.PNG" />
 
 Upon sending a message through the contact form, the site visitor will receive an automated email response to the email address they have provided previously in the form. I Tested this functionality on my email accounts. The right is the email provided while filling the form. This has got the automated message after clicking send.
 
-<img src="testing/testms2.PNG>
+<img src="testing/testms2.PNG" />
 
 A member of Code Institute Anna Greaves has mentioned this handy tool in her ["How to README.md"](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be&ab_channel=CodeInstitute) online webinar.
 
