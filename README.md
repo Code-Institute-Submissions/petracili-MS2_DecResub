@@ -4,7 +4,7 @@ Code Institute Diploma in Full-Stack Software Development Project 2
 
 ##### <u>Project name:</u>EliteFitGym
 
-<img src="assets/images.readme/Capture.PNG" />
+<img src="testing/MS2picture.PNG" />
 
 ### View the live project: https://petracili.github.io/MS2/
 
